@@ -1,1 +1,22 @@
 (Aug.8, 2025)
+
+---BASE STRUCTURE---
+#include <iostream>
+using namespace std;
+int main(){
+   
+  return 0;
+}
+
+
+--LIBRARIES--
+#include <cctype>
+  Lowercase
+    --> tolower(x);
+
+#include <algorithm>  // for sorting
+  --> sort(numbers, numbers + size);  // Sort in ascending order
+  --> sort(numbers, numbers + size, greater<int>()); // Descending order
+
+#include <iomanip>  // for decimals
+  --> cout << fixed << setprecision(2) << pi;
