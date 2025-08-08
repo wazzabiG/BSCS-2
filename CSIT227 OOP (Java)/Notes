@@ -1,1 +1,56 @@
+(Aug.8, 2025)
+---JAVA BASE STRUCTURE---
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
 
+    input.close();
+    }
+}
+
+
+--FOR INPUTS--
+  input.nextLine();       ---> read the whole string
+  input.nextInt();        ---> read integers
+  input.nextDouble();     ---> read doubles
+  input.nextFloat();      ---> read floats
+  input.next().charAt(0); ---> read the first char
+
+
+--STRINGS--
+STRING CONCATENATION ('+' and 'concat')
+  String res1 = str1 + " " + str2;
+  String res2 = str1.concat(" ").concat(str2);
+    --> Both Outputs: same result
+
+STRING COMPARISON ('equals' and 'compareTo')
+  boolean isEqual = str1.equals(str2);
+    --> Output: true/false
+  int res = str1.compareTo(str2);
+    --> Output: -1/0/1
+                0 = equal
+                negative = str1 is before str2
+                positive = str1 is after str2
+
+STRING COPYING
+  String str1 = "Hello";
+  String str2 = str1.substring(0);
+    --> Output: str2 copies str1
+
+
+--TIPS--
+  Lowercase
+    --> Character.toLowerCase(x);
+  String length
+    --> x.length();
+  Integer length
+    --> x.length;
+  Remove newline (from a previous input)
+    --> input.nextLine();
+  Change Decimal Amount (2 decimals)
+    --> String.format("%.2f", x);
+  Character to Number
+    --> Character.getNumericValue(x);
+  Get last char in the string, then Char to Num
+    --> Character.getNumericValue(x.charAt(numStr.length()-1));
