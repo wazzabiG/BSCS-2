@@ -2,6 +2,38 @@
 
 //1. Lesson 2 Topic 4 Input Operations
 //Email Details Display
+/*
+Enter the recipient: John
+Enter the message: Greetings
+Enter the name: Emily
+Enter the subject: Proposal
+Enter the version: 1.2
+Enter the discount: 10.5
+Enter the status: A
+Enter the code: ABC123
+Enter the location: Paris
+Enter the age: 35
+Enter the company name: XYZ
+Enter the website: www.xyz.com
+Enter the phone: 123-456-7890
+Enter the job title: Manager
+Enter the department: Sales
+Dear John, I hope this email finds you well.
+Greetings
+Subject: Proposal
+Sender: Emily
+Version: 1.2
+Discount: 10.50%
+Status: A
+Code: ABC123
+Location: Paris
+Age: 35
+Company: XYZ
+Website: www.xyz.com
+Phone: 123-456-7890
+Job Title: Manager
+Department: Sales
+*/
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -64,6 +96,11 @@ public class Main {
 
 //2. Lesson 4 Topic 1 String Handling
 //Two String Input
+/*
+Enter the first string: Hello
+Enter the second string: World
+Hello World Hello
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter the first string: ");
         String str1 = input.nextLine();
@@ -71,7 +108,14 @@ Scanner input = new Scanner(System.in);
         String str2 = input.nextLine();
         System.out.print(str1 + " " + str2 + " "  + str1);
         input.close();
+
 //Three Strings Now
+/*
+Enter the first string: Hello
+Enter the second string: World
+Enter the third string: Test
+Hello - World - Test
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter the first string: ");
         String str1 = input.nextLine();
@@ -81,7 +125,13 @@ Scanner input = new Scanner(System.in);
         String str3 = input.nextLine();
         System.out.print(str1 + " - " + str2 + " - "  + str3);
         input.close();
+
 //Two Lovers
+/*
+Enter lover1: Jane
+Enter lover2: John
+Jane and John are in love.
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter lover1: ");
         String str1 = input.nextLine();
@@ -89,7 +139,14 @@ Scanner input = new Scanner(System.in);
         String str2 = input.nextLine();
         System.out.print(str1 + " and " + str2 + " are in love.");
         input.close();
+
 //Color Mixer
+/*
+Enter color 1: red
+Enter color 2: blue
+Enter color 3: green
+Mixing red, blue, and green creates a new color!
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter color 1: ");
         String str1 = input.nextLine();
@@ -99,7 +156,15 @@ Scanner input = new Scanner(System.in);
         String str3 = input.nextLine();
         System.out.print("Mixing " + str1 + ", " + str2 + ", and " + str3 + " creates a new color!");
         input.close();
+
 //Game Characters
+/*
+Enter the name of your first character: Mario
+Enter the name of your second character: Luigi
+Enter the name of your third character: Princess Peach
+Enter the name of your fourth character: Toad
+My most played characters in the game are Mario, Luigi, Princess Peach, and Toad.
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter the name of your first character: ");
         String str1 = input.nextLine();
@@ -115,6 +180,12 @@ Scanner input = new Scanner(System.in);
 
 //3. Lesson 7 Topic 5 if else if else Statement
 //All or Not
+/*
+Enter first number: 1
+Enter second number: 2
+Enter third number: 3
+All numbers are positive.
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter first number: ");
         int num1 = input.nextInt();
@@ -134,7 +205,12 @@ Scanner input = new Scanner(System.in);
             System.out.print("Numbers are different.");
         }
         input.close();
+
 //Divisible By?
+/*
+Enter an integer: 12
+The number is divisible by 4.
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int num = input.nextInt();
@@ -152,7 +228,12 @@ Scanner input = new Scanner(System.in);
             System.out.print("The number is divisible by 4.");
         }
         input.close();
+
 //Day Identifier
+/*
+Enter day: 1
+Monday
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter day: ");
         int num = input.nextInt();
@@ -174,7 +255,18 @@ Scanner input = new Scanner(System.in);
             System.out.print("Invalid input");
         }
         input.close();
+
 //Positive, Negative, or Zero Counter
+/*
+Enter first integer: 1
+Enter second integer: 3
+Enter third integer: -1
+Enter fourth integer: 0
+Enter fifth integer: 4
+Positive count: 3
+Negative count: 1
+Zero count: 1
+*/
 Scanner input = new Scanner(System.in);
         int pos=0, neg=0, zero=0;
         System.out.print("Enter first integer: ");
@@ -226,7 +318,12 @@ Scanner input = new Scanner(System.in);
         System.out.println("Negative count: " + neg);
         System.out.println("Zero count: " + zero);
         input.close();
+
 //What Year is it?
+/*
+Enter a year: 2020
+It's a leap year.
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter a year: ");
         int yr = input.nextInt();
@@ -248,6 +345,10 @@ Scanner input = new Scanner(System.in);
 
 //4. Lesson 8 Topic 3 For Loop
 //Difference of Digits
+/*
+Enter a positive integer: 12345
+Result of subtracting digits: -5
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int num = input.nextInt();
@@ -259,7 +360,18 @@ Scanner input = new Scanner(System.in);
         }
         System.out.print("Result of subtracting digits: " + res);
         input.close();
+
 //For Loop Counting
+/*
+Enter a positive integer: 7
+1
+2
+3
+4
+5
+6
+7
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int num = input.nextInt();
@@ -267,7 +379,18 @@ Scanner input = new Scanner(System.in);
             System.out.println(i);
         }
         input.close();
+
 //Multiplication by 5
+/*
+Enter a number: 7
+5
+10
+15
+20
+25
+30
+35
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = input.nextInt();
@@ -276,7 +399,15 @@ Scanner input = new Scanner(System.in);
             System.out.println(res);
         }
         input.close();
+
 //Odd Number Printer
+/*
+Enter a positive integer: 7
+1
+3
+5
+7
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int num = input.nextInt();
@@ -286,7 +417,13 @@ Scanner input = new Scanner(System.in);
             }
         }
         input.close();
+
 //A's and B's
+/*
+Enter a string: abababa
+Number of 'a' occurrences: 4
+Number of 'b' occurrences: 3
+*/
 Scanner input = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = input.nextLine();
@@ -305,6 +442,18 @@ Scanner input = new Scanner(System.in);
 
 //5. Lesson 9 Topic 2 One Dimensional Arrays
 //Array Vowel Count
+/*
+Enter 8 characters:
+h
+e
+l
+l
+o
+w
+o
+r
+Number of vowel elements: 3
+*/
 Scanner input = new Scanner(System.in);
         char[] chars = new char[8];
         System.out.println("Enter 8 characters:");
@@ -321,14 +470,28 @@ Scanner input = new Scanner(System.in);
         }
         System.out.println("Number of vowel elements: " + count);
         input.close();
+
 //Integer Array
+/*
+10 20 30 40 50 60 70 80 90 100
+*/
 Scanner input = new Scanner(System.in);
         int[] ints = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         for(int i=0; i<ints.length; i++){
             System.out.print(ints[i] + " ");
         }
         input.close();
+
 //Array Sum
+/*
+Enter 5 integer numbers:
+1
+2
+3
+4
+5
+Sum: 15
+*/
 Scanner input = new Scanner(System.in);
         int[] nums = new int[5];
         System.out.println("Enter 5 integer numbers: ");
@@ -341,7 +504,19 @@ Scanner input = new Scanner(System.in);
         }
         System.out.println("Sum: " + sum);
         input.close();
+
 //Double Separation Array
+/*
+Enter 6 double values:
+1.111
+2.222
+3.333
+4.444
+5.555
+6.666
+Array elements:
+1.111	2.222	3.333	4.444	5.555	6.666
+*/
 Scanner input = new Scanner(System.in);
         double[] nums = new double[6];
         System.out.println("Enter 6 double values: ");
@@ -353,7 +528,22 @@ Scanner input = new Scanner(System.in);
             System.out.print(String.format("%.3f", nums[i]) + "	");
         }
         input.close();
+
 //Average of Floating-Point Numbers
+/*
+Enter 10 floating-point numbers:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+The average is: 5.50
+*/
 Scanner input = new Scanner(System.in);
         float[] nums = new float[10];
         System.out.println("Enter 10 floating-point numbers:");
