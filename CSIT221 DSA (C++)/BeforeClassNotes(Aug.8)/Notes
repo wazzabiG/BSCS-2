@@ -18,3 +18,7 @@ int main(){
 
 #include <iomanip>  // for decimals
   --> cout << fixed << setprecision(2) << pi;
+
+--TIPS--
+Include the entire string
+   --> getline(cin >> ws, name)
