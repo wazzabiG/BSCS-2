@@ -1,5 +1,7 @@
-CS227 OOP (Java)
-1. Lesson 2 Topic 4 Input Operations
+//Before Class (Aug.8, 2025)
+
+//1. Lesson 2 Topic 4 Input Operations
+//Email Details Display
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -30,19 +32,14 @@ public class Main {
         
         System.out.print("Enter the company name: ");
         String com = input.nextLine();
-        
         System.out.print("Enter the website: ");
         String web = input.nextLine();
-        
         System.out.print("Enter the phone: ");
         String pho = input.nextLine();
-        
         System.out.print("Enter the job title: ");
         String job = input.nextLine();
-        
         System.out.print("Enter the department: ");
         String dep = input.nextLine();
-        
         
         System.out.println("Dear " + rec + ", I hope this email finds you well.");
         System.out.println(mes);
@@ -64,7 +61,13 @@ public class Main {
     }
 }
 
-  2. Lesson 4 Topic 1 String Handling
-  3. Lesson 7 Topic 5 if else if else Statement
-  4. Lesson 8 Topic 3 For Loop
-  5. Lesson 9 Topic 2 One Dimensional Arrays
+//2. Lesson 4 Topic 1 String Handling
+
+
+//3. Lesson 7 Topic 5 if else if else Statement
+
+
+//4. Lesson 8 Topic 3 For Loop
+
+
+//5. Lesson 9 Topic 2 One Dimensional Arrays
