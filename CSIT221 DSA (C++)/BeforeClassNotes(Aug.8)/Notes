@@ -11,8 +11,7 @@ int main(){
 
 --LIBRARIES--
 #include <cctype>
-  Lowercase
-    --> tolower(x);
+   --> tolower(x); // Lowercase
 
 #include <algorithm>  // for sorting
   --> sort(numbers, numbers + size);  // Sort in ascending order
