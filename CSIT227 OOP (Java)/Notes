@@ -9,14 +9,12 @@ public class Main{
     }
 }
 
-
 --FOR INPUTS--
   input.nextLine();       ---> read the whole string
   input.nextInt();        ---> read integers
   input.nextDouble();     ---> read doubles
   input.nextFloat();      ---> read floats
   input.next().charAt(0); ---> read the first char
-
 
 --STRINGS--
 STRING CONCATENATION ('+' and 'concat')
@@ -38,7 +36,6 @@ STRING COPYING
   String str2 = str1.substring(0);
     --> Output: str2 copies str1
 
-
 --TIPS--
 Lowercase
   --> Character.toLowerCase(x);
@@ -52,23 +49,24 @@ Change Decimal Amount (2 decimals)
   --> String.format("%.2f", x);
 
 
-(Aug.11, 2025)
---TIPS--
-If Char is Alphabetic
-  --> Character.isLetter('c'));  // displays true
-If Char is a Digit
-  --> Character.isDigit('4'));
 
+(Aug.11, 2025)
 --CHARACTER FUNCTIONS--
 Character to Number
   --> Character.getNumericValue(x);
 Get last char in the string, then Char to Num
   --> Character.getNumericValue(x.charAt(numStr.length()-1));
 
---> System.out.println(Character.toUpperCase(ch));
-  --> Character.toLowerCase(ch));
-  --> Character.isLetterOrDigit('9'));
-  --> Character.isWhitespace('\n'));
-  --> Character.isLowerCase('c'));
-  --> Character.isUpperCase('c'));
-  --> Character.isSpaceChar(' '));
+  --> Character.toUpperCase(ch);
+  --> Character.toLowerCase(ch);
+  --> Character.isLetter('c'));
+  --> Character.isDigit('4'));
+  --> Character.isLetterOrDigit('9');
+  --> Character.isWhitespace('\n');
+  --> Character.isLowerCase('c');
+  --> Character.isUpperCase('c');
+  --> Character.isSpaceChar(' ');
+  --> Character.isISOControl('\n');  // displays true
+  --> Character.ISOControl('A');  // displays false
+  --> Character.isPunctuation('.');
+  --> Character.isDigit('1');
