@@ -54,3 +54,19 @@ Character to Number
   --> Character.getNumericValue(x);
 Get last char in the string, then Char to Num
   --> Character.getNumericValue(x.charAt(numStr.length()-1));
+
+
+(Aug.11, 2025)
+--TIPS--
+If Char is Alphabetic
+  --> Character.isLetter('c'));  // displays true
+If Char is a Digit
+  --> Character.isDigit('4'));
+
+  --> System.out.println(Character.toUpperCase(ch));
+  --> Character.toLowerCase(ch));
+  --> Character.isLetterOrDigit('9'));
+  --> Character.isWhitespace('\n'));
+  --> Character.isLowerCase('c'));
+  --> Character.isUpperCase('c'));
+  --> Character.isSpaceChar(' '));
