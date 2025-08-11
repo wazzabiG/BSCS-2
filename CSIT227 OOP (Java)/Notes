@@ -37,10 +37,8 @@ STRING COPYING
     --> Output: str2 copies str1
 
 --TIPS--
-Lowercase
-  --> Character.toLowerCase(x);
 String length
-  --> x.length();
+  --> s.length();
 Integer length
   --> x.length;
 Remove newline (from a previous input)
