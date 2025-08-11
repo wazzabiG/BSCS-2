@@ -50,10 +50,6 @@ Remove newline (from a previous input)
   --> input.nextLine();
 Change Decimal Amount (2 decimals)
   --> String.format("%.2f", x);
-Character to Number
-  --> Character.getNumericValue(x);
-Get last char in the string, then Char to Num
-  --> Character.getNumericValue(x.charAt(numStr.length()-1));
 
 
 (Aug.11, 2025)
@@ -63,7 +59,13 @@ If Char is Alphabetic
 If Char is a Digit
   --> Character.isDigit('4'));
 
-  --> System.out.println(Character.toUpperCase(ch));
+--CHARACTER FUNCTIONS--
+Character to Number
+  --> Character.getNumericValue(x);
+Get last char in the string, then Char to Num
+  --> Character.getNumericValue(x.charAt(numStr.length()-1));
+
+--> System.out.println(Character.toUpperCase(ch));
   --> Character.toLowerCase(ch));
   --> Character.isLetterOrDigit('9'));
   --> Character.isWhitespace('\n'));
