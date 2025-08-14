@@ -7,19 +7,32 @@ int main(){
   return 0;
 }
 
-
 --LIBRARIES--
 #include <cctype>
-   --> tolower(x); // Lowercase
+   --> tolower(x);  // Lowercase
 
 #include <algorithm>  // for sorting
-  --> sort(numbers, numbers + size);  // Sort in ascending order
-  --> sort(numbers, numbers + size, greater<int>()); // Descending order
+  --> sort(numbers, numbers + size);                  // Sort in ascending order
+  --> sort(numbers, numbers + size, greater<int>());  // Descending order
 
 #include <iomanip>  // for decimals
   --> cout << fixed << setprecision(2) << pi;
 
-
 --TIPS--
 Include the entire string
    --> getline(cin >> ws, name)
+
+
+
+(Aug.15, 2025)
+#include <unordered_map>
+   unordered_map<int, int>freq;  // 1st int is the key, 2nd is the value(counts of the key/s)
+   for(int i=0; i<n; i++){       // assigning of values of key/s
+        freq[arr[i]]++;
+    }
+   for(auto &pair : freq){       // if value (pair.second) is >1, print key (print.first)
+        if(pair.second > 1){
+            cout << pair.first;
+            foundDupe = true;
+        }
+    }
