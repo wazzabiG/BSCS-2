@@ -21,10 +21,36 @@ int main(){
 --TIPS--
 Include the entire string
    --> getline(cin >> ws, name)
+Pascal's Triangle
+   int pascal[100][100];
+      pascal[0][0] = 1;
+      pascal[1][0] = pascal[1][1] = 1;
+      for (int i = 2; i < n; i++) {
+         pascal[i][0] = 1;
+         for (int j = 1; j <= i; j++) {
+            pascal[i][j] = pascal[i-1][j-1] + pascal[i-1][j];
+         }
+      }
+      cout << "Pascal's triangle:" << endl;
+      for (int i = 0; i < n; i++) {
+         for (int j = 0; j <= i; j++) {
+            cout << pascal[i][j] << " ";
+         }
+         cout << endl;
+      }
 
 
 
 (Aug.15, 2025)
+#include <climits>
+   INT_MAX and INT_MIN
+
+#include <cmath>
+   sqrt(x)
+   abs(x)
+   floor(x)
+   ceil(x)
+
 #include <unordered_map>
    unordered_map<int, int>freq;  // 1st int is the key, 2nd is the value(counts of the key/s)
    for(int i=0; i<n; i++){       // assigning of values of key/s
